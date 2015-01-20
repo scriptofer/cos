@@ -17,3 +17,14 @@
 .navbar-default .navbar-nav > .active > a:focus {
   border-radius: 15px;
 }
+.navbar-default {
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+  }
+
+  .navbar-nav > li > a:hover {
+    color: #F08914;
+  }
+}

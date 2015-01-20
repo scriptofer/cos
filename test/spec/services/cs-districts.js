@@ -11,7 +11,7 @@ describe('Service: csDistricts', function () {
     csDistricts = _csDistricts_;
   }));
 
-  it('should do something', function () {
+  xit('should do something', function () {
     expect(!!csDistricts).toBe(true);
   });
 

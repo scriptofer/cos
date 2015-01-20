@@ -11,7 +11,7 @@ describe('Service: polySearch', function () {
     polySearch = _polySearch_;
   }));
 
-  it('should do something', function () {
+  xit('should do something', function () {
     expect(!!polySearch).toBe(true);
   });
 

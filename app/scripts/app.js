@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * @ngdoc overview
@@ -9,33 +9,34 @@
  * Main module of the application.
  */
 angular
-  .module('cutoffsearchApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+  .module("cutoffsearchApp", [
+    "ngAnimate",
+    "ngCookies",
+    "ngResource",
+    "ngRoute",
+    "ngSanitize",
+    "ngTouch",
+    "ngTable"
   ])
-  .config(function ($routeProvider) {
+  .config(function($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+      .when("/", {
+        templateUrl: "views/main.html",
+        controller: "MainCtrl"
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when("/about", {
+        templateUrl: "views/about.html",
+        controller: "AboutCtrl"
       })
-      .when('/polytechnic-filter', {
-        templateUrl: 'views/polytechnic-filter.html',
-        controller: 'PolytechnicFilterCtrl'
+      .when("/polytechnic-filter", {
+        templateUrl: "views/polytechnic-filter.html",
+        controller: "PolytechnicFilterCtrl"
       })
-      .when('/polytechnic-search-result/:filters', {
-        templateUrl: 'views/polytechnic-search-result.html',
-        controller: 'PolytechnicSearchResultCtrl'
+      .when("/polytechnic-search-result/:filters", {
+        templateUrl: "views/polytechnic-search-result.html",
+        controller: "PolytechnicSearchResultCtrl"
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: "/"
       });
   });

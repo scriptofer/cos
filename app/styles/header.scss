@@ -1,8 +1,9 @@
 /* Custom page header */
-.header {
+.page-header {
   border-bottom: 1px solid #e5e5e5;
   background-image: url('../images/headerbg.jpg');
   background-repeat: repeat;
+  margin-top: 0;
 
   /* Make the masthead heading the same height as the navigation */
   h3 {

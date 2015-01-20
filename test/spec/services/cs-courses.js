@@ -11,7 +11,7 @@ describe('Service: csCourses', function () {
     csCourses = _csCourses_;
   }));
 
-  it('should do something', function () {
+  xit('should do something', function () {
     expect(!!csCourses).toBe(true);
   });
 
