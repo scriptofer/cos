@@ -1,0 +1,28 @@
+<div class="polytechnic-filter">
+  <div>
+    <div class="topadd">
+      <img src="../images/jspm_top_adv.jpeg" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-md-4 col-sm-4">
+      <img src="../images/add1.png" />
+    </div>
+    <div class="col-xs-4 col-md-4 col-sm-4">
+      <img src="../images/add1.png" />
+    </div>
+    <div class="col-xs-4 col-md-4 col-sm-4">
+      <img src="../images/add1.png" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-md-12 col-sm-12">
+      <div ng-repeat="n in searchResult">
+        <span>{{ n.collegeName }}</span>--
+        <span>{{ n.courseName }}</span>
+      </div>
+
+    </div>
+  </div>
+</div>

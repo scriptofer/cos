@@ -1,0 +1,11 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2014-08-24 09:24:12 --> New user added - 7040180498|NIKITA KAKADE|abc@gmail.com
+ERROR - 2014-08-24 09:25:21 --> 7040180498|NIKITA KAKADE|abc@gmail.com|89.71|Pune|TLOPENH|Electronics and Telecommunication Engg
+ERROR - 2014-08-24 09:26:48 --> 7040180498|NIKITA KAKADE|abc@gmail.com|89.71|Pune|LOPEN|Electronics and Telecommunication Engg|Direct Second Year
+ERROR - 2014-08-24 20:42:35 --> 7798372099|ajay hadgile|abc@gmail.com|72|Pune|GVJDT|Electrical Engineering|Direct Second Year
+ERROR - 2014-08-24 11:13:22 --> Query error: Unknown column 'undefined' in 'where clause' - SELECT collegeName, en_college.collegeID, en_course.courseCode, seattype, courseName, meritno, percentage, category FROM en_cutoff inner join en_college on en_cutoff.collegeID = en_college.collegeID inner join en_course on en_cutoff.courseCode = en_course.courseCode WHERE seattype = '' and percentage <= 77 and percentage >= 67 and collegeDist = undefined and en_cutoff.subGroup = 'undefined'
+ERROR - 2014-08-24 20:43:44 --> 7798372099|ajay hadgile|abc@gmail.com|72|Pune|GVJDT|Electrical Engineering|Direct Second Year
+ERROR - 2014-08-24 11:13:54 --> Query error: Unknown column 'undefined' in 'where clause' - SELECT collegeName, en_college.collegeID, en_course.courseCode, seattype, courseName, meritno, percentage, category FROM en_cutoff inner join en_college on en_cutoff.collegeID = en_college.collegeID inner join en_course on en_cutoff.courseCode = en_course.courseCode WHERE seattype = '' and percentage <= 77 and percentage >= 67 and collegeDist = undefined and en_cutoff.subGroup = 'undefined'
+ERROR - 2014-08-24 20:44:14 --> 7798372099|ajay hadgile|abc@gmail.com|72|Pune|GVJDT|Electrical Engineering|Direct Second Year
+ERROR - 2014-08-24 11:15:03 --> Query error: Unknown column 'undefined' in 'where clause' - SELECT collegeName, en_college.collegeID, en_course.courseCode, seattype, courseName, meritno, percentage, category FROM en_cutoff inner join en_college on en_cutoff.collegeID = en_college.collegeID inner join en_course on en_cutoff.courseCode = en_course.courseCode WHERE seattype = '' and percentage <= 77 and percentage >= 67 and collegeDist = undefined and en_cutoff.subGroup = 'undefined'

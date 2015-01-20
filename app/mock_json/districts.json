@@ -1,0 +1,177 @@
+[
+  {
+    "districtID": "1",
+    "districtName": "Ahmednagar",
+    "universityID": "2"
+  },
+  {
+    "districtID": "2",
+    "districtName": "Akola",
+    "universityID": "8"
+  },
+  {
+    "districtID": "3",
+    "districtName": "Amravati",
+    "universityID": "8"
+  },
+  {
+    "districtID": "4",
+    "districtName": "Aurangabad",
+    "universityID": "3"
+  },
+  {
+    "districtID": "5",
+    "districtName": "Beed",
+    "universityID": "3"
+  },
+  {
+    "districtID": "6",
+    "districtName": "Bhandara",
+    "universityID": "9"
+  },
+  {
+    "districtID": "7",
+    "districtName": "Buldhana",
+    "universityID": "8"
+  },
+  {
+    "districtID": "8",
+    "districtName": "Chandrapur",
+    "universityID": "10"
+  },
+  {
+    "districtID": "9",
+    "districtName": "Dhule",
+    "universityID": "5"
+  },
+  {
+    "districtID": "10",
+    "districtName": "Gadchiroli",
+    "universityID": "10"
+  },
+  {
+    "districtID": "11",
+    "districtName": "Gondia",
+    "universityID": "9"
+  },
+  {
+    "districtID": "12",
+    "districtName": "Hingoli",
+    "universityID": "1"
+  },
+  {
+    "districtID": "13",
+    "districtName": "Jalgaon",
+    "universityID": "5"
+  },
+  {
+    "districtID": "14",
+    "districtName": "Jalna",
+    "universityID": "3"
+  },
+  {
+    "districtID": "15",
+    "districtName": "Kolhapur",
+    "universityID": "6"
+  },
+  {
+    "districtID": "16",
+    "districtName": "Latur",
+    "universityID": "1"
+  },
+  {
+    "districtID": "17",
+    "districtName": "Mumbai and Mumbai Suburban",
+    "universityID": "4"
+  },
+  {
+    "districtID": "18",
+    "districtName": "Nagpur",
+    "universityID": "9"
+  },
+  {
+    "districtID": "19",
+    "districtName": "Nanded",
+    "universityID": "1"
+  },
+  {
+    "districtID": "20",
+    "districtName": "Nandurbar",
+    "universityID": "5"
+  },
+  {
+    "districtID": "21",
+    "districtName": "Nashik",
+    "universityID": "2"
+  },
+  {
+    "districtID": "22",
+    "districtName": "Osmanabad",
+    "universityID": "3"
+  },
+  {
+    "districtID": "23",
+    "districtName": "Parbhani",
+    "universityID": "1"
+  },
+  {
+    "districtID": "24",
+    "districtName": "Pune",
+    "universityID": "2"
+  },
+  {
+    "districtID": "25",
+    "districtName": "Raigad",
+    "universityID": "4"
+  },
+  {
+    "districtID": "26",
+    "districtName": "Ratnagiri",
+    "universityID": "4"
+  },
+  {
+    "districtID": "27",
+    "districtName": "Sangali",
+    "universityID": "6"
+  },
+  {
+    "districtID": "28",
+    "districtName": "Satara",
+    "universityID": "6"
+  },
+  {
+    "districtID": "29",
+    "districtName": "Sindhudurg",
+    "universityID": "4"
+  },
+  {
+    "districtID": "30",
+    "districtName": "Solapur",
+    "universityID": "7"
+  },
+  {
+    "districtID": "31",
+    "districtName": "Thane",
+    "universityID": "4"
+  },
+  {
+    "districtID": "32",
+    "districtName": "Wardha",
+    "universityID": "9"
+  },
+  {
+    "districtID": "33",
+    "districtName": "Washim",
+    "universityID": "8"
+  },
+  {
+    "districtID": "34",
+    "districtName": "Yavatmal",
+    "universityID": "8"
+  },
+  {
+    "districtID": "35",
+    "districtName": "Palghar",
+    "universityID": "4"
+  }
+]

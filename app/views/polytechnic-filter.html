@@ -1,0 +1,185 @@
+<div class="polytechnic-filter">
+  <div>
+    <div class="topadd">
+      <img src="../images/jspm_top_adv.jpeg"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-md-4 col-sm-4">
+      <img src="../images/add1.png"/>
+    </div>
+    <div class="col-xs-4 col-md-4 col-sm-4">
+      <img src="../images/add1.png"/>
+    </div>
+    <div class="col-xs-4 col-md-4 col-sm-4">
+      <img src="../images/add1.png"/>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-2 col-md-2">
+      <img src="../images/verti_ad.jpg"/>
+    </div>
+    <div class="col-xs-6 col-md-6">
+      <div class="searchContainer">
+        <div class="searchHeader">
+          Polytechnic 2014 - Apply Filter and search
+        </div>
+        <div class="searchContent">
+          <form class="form-horizontal" ng-submit="search()">
+
+            <div class="form-group">
+              <label for="inputPercentage" class="col-sm-3 control-label">
+                Percentage
+              </label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="inputPercentage"
+                ng-model="polyFilterOptions.percentage"
+                placeholder="Ex. 75.60" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="selectType" class="col-sm-3 control-label">Seat Type</label>
+              <div class="col-sm-9">
+                <select name="selectType" class="form-control"
+                  ng-model="polyFilterOptions.seatType"
+                  placeholder="Select Type" required>
+
+                  <option value="">Select Seat Type...</option>
+                  <option value="N">Non-Technical</option>
+                  <option value="T">Technical</option>
+                  <option value="M">Minority</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="selectType" class="col-sm-3 control-label">Gender</label>
+              <div class="col-sm-9">
+                <select name="selectType" class="form-control"
+                  ng-model="polyFilterOptions.gender"
+                  placeholder="Select Gender..." required>
+
+                  <option value="">Select Gender...</option>
+                  <option value="G">Male</option>
+                  <option value="L">Female</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="selectType" class="col-sm-3 control-label">Category</label>
+              <div class="col-sm-9">
+                <select name="selectCategory" class="form-control"
+                  ng-model="polyFilterOptions.category"
+                  placeholder="Select Category" required>
+
+                  <option value="">Select Category...</option>
+                  <option value="OPEN">Open</option>
+                  <option value="SC">SC</option>
+                  <option value="ST">ST</option>
+                  <option value="VJ">VJ</option>
+                  <option value="NT1">NT1</option>
+                  <option value="NT2">NT2</option>
+                  <option value="NT3">NT3</option>
+                  <option value="OBC">OBC</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="selectType" class="col-sm-3 control-label">District Type</label>
+              <div class="col-sm-9">
+                <select name="selectDistType" class="form-control"
+                  ng-model="polyFilterOptions.distType"
+                  placeholder="Select District Type"
+                  required>
+
+                    <option value="">Select District Type...</option>
+                    <option value="H">Home District</option>
+                    <option value="O">Other District</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="selectType" class="col-sm-3 control-label">District</label>
+              <div class="col-sm-9">
+
+                <select name="selectDistType" class="form-control"
+                ng-model="polyFilterOptions.district" placeholder="Select District"
+                ng-options="dist.districtName for dist in districts"
+                required>
+
+                  <option value="">Select District...</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="selectType" class="col-sm-3 control-label">All Courses</label>
+              <div class="col-sm-9">
+                <select name="selectDistType" class="form-control"
+                ng-model="polyFilterOptions.course" placeholder="Select Course"
+                ng-options="course.courseName for course in courses"
+                required>
+
+                  <option value="">Select Course...</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Physically Handicap
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Defence
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> TFWS
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">
+                  <i class="fa fa-search"></i>
+                  Search
+                </button>
+                <button type="button" class="btn btn-warning" ng-click="reset()">
+                  <i class="fa fa-times-circle"></i>
+                  Reset
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-4">
+      <img src="../images/add1.png"/>
+      <img src="../images/add1.png"/>
+    </div>
+  </div>
+</div>

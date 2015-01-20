@@ -1,0 +1,25 @@
+.polytechnic-filter {
+  margin-bottom: 10px;
+  
+  .topadd {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .searchContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px 0 #ccc;
+
+    .searchHeader {
+      background-color: #C92951;
+      color: #FFF;
+      height: 40px;
+      padding: 10px;
+    }
+    .searchContent {
+      padding: 10px;
+    }
+  }
+}
